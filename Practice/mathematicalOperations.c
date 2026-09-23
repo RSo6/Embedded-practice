@@ -21,7 +21,7 @@ int main() {
         printf("\nInsert the value to calculate by equations -->  ");
 
         if (scanf("%lf", &x) != 1) {
-            printf("root\n");
+            printf("Invalid input.\n");
             break;
         }
     }
