@@ -11,6 +11,7 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Embedded_practice main.c
         ${SOURCES}
         Practice/mathematicalOperations.c
+        Practice/strings.c
 )
 
 target_include_directories(Embedded_practice PRIVATE

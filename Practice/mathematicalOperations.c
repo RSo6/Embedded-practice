@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
@@ -7,7 +8,7 @@
 double firstEquationCalc(double);
 double secEquationCalc(double);
 
-int main() {
+int main(void) {
     double x = 3.3;
     while (1) {
         double const first_equation = firstEquationCalc(x);
@@ -41,4 +42,5 @@ double secEquationCalc(double x) {
     if (root < 0.0) return EDOM;
     return (x - 3) == 0.0 ? EDOM : sqrt((x + 3) / (x - 3));
 }
+*/
 
