@@ -12,6 +12,7 @@ add_executable(Embedded_practice main.c
         ${SOURCES}
         Practice/mathematicalOperations.c
         Practice/strings.c
+        Practice/linkedList.c
 )
 
 target_include_directories(Embedded_practice PRIVATE

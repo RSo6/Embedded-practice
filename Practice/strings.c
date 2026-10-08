@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 #define MAXLINE 1000
 
@@ -46,4 +46,4 @@ void oddElimination(char line [], int const length) {
 
     line[new_length] = '\0';
 
-}
+}*/
