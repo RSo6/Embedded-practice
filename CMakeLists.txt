@@ -1,20 +1,12 @@
-cmake_minimum_required(VERSION 4.2)
 
-project(Embedded_practice C)
+cmake_minimum_required(VERSION 3.22)
+
+project(EmbeddedPractice LANGUAGES C ASM)
 
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
 
-#file(GLOB SOURCES
-#        Practice/*.c
-#)
 
-add_executable(Embedded_practice main.c
-        ${SOURCES}
-        Practice/mathematicalOperations.c
-        Practice/strings.c
-        Practice/linkedList.c
-)
-
-target_include_directories(Embedded_practice PRIVATE
-        Practice
-)
+add_subdirectory(Practice)
+add_subdirectory(Embedded)
