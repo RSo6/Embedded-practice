@@ -10,3 +10,4 @@ set(CMAKE_C_EXTENSIONS OFF)
 
 add_subdirectory(Practice)
 add_subdirectory(Embedded)
+add_subdirectory(LEDs_Buttons_Interrupts)
